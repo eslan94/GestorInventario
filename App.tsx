@@ -20,8 +20,8 @@ export const App = () => {
   return (
     <SafeAreaView style={{flex:1}}>
       {/*<LoginScreen/>*/}
-      {/*<MenuScreen/>*/}
-      <RegisterScreen/>
+      <MenuScreen/>
+      {/*<RegisterScreen/>*/}
     </SafeAreaView>
   )
 }
