@@ -4,6 +4,8 @@ import { SafeAreaView } from 'react-native'
 import { LoginScreen } from './src/screens/LoginScreen'
 import 'react-native-gesture-handler'
 import { createStackNavigator } from '@react-navigation/stack'
+import { MenuScreen } from './src/screens/MenuScreen'
+import { RegisterScreen } from './src/screens/RegisterScreen'
 
 export const App = () => {
 
@@ -17,7 +19,9 @@ export const App = () => {
 
   return (
     <SafeAreaView style={{flex:1}}>
-      <LoginScreen/>
+      {/*<LoginScreen/>*/}
+      {/*<MenuScreen/>*/}
+      <RegisterScreen/>
     </SafeAreaView>
   )
 }

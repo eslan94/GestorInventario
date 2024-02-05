@@ -12,11 +12,11 @@ export const LoginScreen = () => {
         <Image style={styles.logo} source={require('../images/Logo.png')}/> 
       </View>
       <View>
-      <Text style={styles.texto}>Usuario</Text>
+        <Text style={styles.texto}>Usuario</Text>
         <TextInput style={styles.input} onChangeText={onChangeUsuario} value={usuario} placeholder='usuario'/>
       </View>
       <View>
-      <Text style={styles.texto}>Contraseña: </Text>
+        <Text style={styles.texto}>Contraseña: </Text>
         <TextInput style={styles.input} onChangeText={onChangeClave} value={clave} placeholder='contraseña' secureTextEntry={true}/>
       </View>   
       <View style={styles.boton}>
